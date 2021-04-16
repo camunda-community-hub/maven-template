@@ -21,6 +21,7 @@ to the repo.
 - GitHub Integration
   - Dependabot enabled for Maven dependencies (Dependabot not yet available for Camunda Community
     Hub)
+  - Backport action (https://github.com/zeebe-io/backport-action)
 - Maven POM
   - Release to Maven, Nexus and GitHub
   - Google Code Formatter
