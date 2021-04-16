@@ -12,3 +12,5 @@ buildNumber.properties
 /.classpath
 /.project
 /.settings/
+/give-me-a-name.iml
+/.idea/

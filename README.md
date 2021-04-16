@@ -1,14 +1,13 @@
-# zeebe-maven-template
+# maven-template
 
-Empty maven project with defaults that integrate with the Zeebe build pipeline
+Empty maven project with defaults that incorporates Camunda Community Hub best practices.
 
 ## Usage
 
-Use this as a template for new Zeebe projects.
+Use this as a template for new Camunda Community Hub projects.
 
-Change the artifact, name and version in `pom.xml` and `.ci/scripts/github-release.sh`.
-
-Adding [Contributing to this project](https://gist.github.com/jwulf/2c7f772570bfc8654b0a0a783a3f165e) to the repo.
+Adding [Contributing to this project](https://gist.github.com/jwulf/2c7f772570bfc8654b0a0a783a3f165e)
+to the repo.
 
 (This is not part of the template as the text might change. Please copy the latest version.)
 
@@ -17,28 +16,20 @@ Adding [Contributing to this project](https://gist.github.com/jwulf/2c7f772570bf
 - IDE integration
   - https://editorconfig.org/
 - GitHub Integration
-  - Dependabot enabled for Maven dependencies (see `.github/dependabot`)
-  - BORS config (configured to require no review approvals; edit `bors.toml/required_approvals` to change this)
-  - LGTM config
+  - Dependabot enabled for Maven dependencies (Dependabot not yet available for Camunda Community
+    Hub)
 - Maven POM
-  - Zeebe reprositories
-  - Release to Maven, Zeebe and GitHub
-  - Google Code Formatter  
+  - Release to Maven, Nexus and GitHub
+  - Google Code Formatter
   - JUnit 5
   - AssertJ
   - Surefire Plugin
   - JaCoCo Plugin (test coverage)
   - flaky test extractor
-- Jenkinsfile
-  - Rerun failed builds
-  - Show last commit in build display name
-  - Archie test reports and JVM dump files in case of failure
-  - Publish test coverage to Jenkins and also archive test coverae reports as part of the build artifact
-  - Detect flaky tests and publish them to Jenkins
 
 ## Versions
 
 Different versions are represented in different branches
 
-- `master` - Java 11
-- `stable/java8` - Java 8
+- `main` - Java 11
+

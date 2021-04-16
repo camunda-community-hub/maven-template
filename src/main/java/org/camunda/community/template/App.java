@@ -1,4 +1,4 @@
-package io.zeebe.template;
+package org.camunda.community.template;
 
 public class App {
 
@@ -6,7 +6,7 @@ public class App {
     return "Hello World";
   }
 
-  public static void main(String[] args) {
+  public static void main(final String[] args) {
     System.out.println(new App().foo());
   }
 }

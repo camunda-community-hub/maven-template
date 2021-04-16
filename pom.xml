@@ -6,20 +6,21 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>io.zeebe</groupId>
+  <groupId>camunda-community-hub</groupId>
   <artifactId>give-me-a-name</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>give-me-a-name</name>
 
-  <!-- When changing the artifact or name, also make sure to change the SCM 
+  <!-- When changing the artifact or name, also make sure to change the SCM
     location below and in .ci/scripts/github-release.sh -->
 
   <scm>
-    <url>https://github.com/zeebe-io/maven-template</url>
-    <connection>scm:git:git@github.com:zeebe-io/maven-template.git</connection>
-    <developerConnection>scm:git:git@github.com:zeebe-io/maven-tenmplate.git</developerConnection>
+    <url>https://github.com/camunda-community-hub/maven-template</url>
+    <connection>scm:git:git@github.com:camunda-community-hub/maven-template.git</connection>
+    <developerConnection>scm:git:git@github.com:camunda-community-hub/maven-tenmplate.git
+    </developerConnection>
     <tag>HEAD</tag>
   </scm>
 
@@ -32,16 +33,13 @@
     <artifactId>camunda-release-parent</artifactId>
     <version>3.7</version>
     <!-- do not remove empty tag - http://jira.codehaus.org/browse/MNG-4687 -->
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <version.java>11</version.java>
     <maven.version>3.0</maven.version>
-
-    <nexus.snapshot.repository>https://app.camunda.com/nexus/content/repositories/zeebe-io-snapshots/</nexus.snapshot.repository>
-    <nexus.release.repository>https://app.camunda.com/nexus/content/repositories/zeebe-io/</nexus.release.repository>
 
     <version.junit>5.7.1</version.junit>
 
@@ -85,7 +83,7 @@
         <version>1.4.1</version>
         <configuration>
           <rules>
-            <dependencyConvergence />
+            <dependencyConvergence/>
           </rules>
         </configuration>
         <executions>
@@ -162,32 +160,6 @@
       </plugin>
     </plugins>
   </build>
-
-  <repositories>
-    <repository>
-      <id>zeebe</id>
-      <name>Zeebe Repository</name>
-      <url>https://app.camunda.com/nexus/content/repositories/zeebe-io/</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
-
-    <repository>
-      <id>zeebe-snapshots</id>
-      <name>Zeebe Snapshot Repository</name>
-      <url>https://app.camunda.com/nexus/content/repositories/zeebe-io-snapshots/</url>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </repository>
-  </repositories>
 
   <profiles>
     <profile>

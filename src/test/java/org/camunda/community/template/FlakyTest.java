@@ -1,4 +1,4 @@
-package io.zeebe.template;
+package org.camunda.community.template;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;
