@@ -29,7 +29,7 @@ to the repo.
   - AssertJ
   - Surefire Plugin
   - JaCoCo Plugin (test coverage)
-  - flaky test extractor
+  - flaky test extractor (https://github.com/zeebe-io/flaky-test-extractor-maven-plugin)
 
 ## Versions
 
