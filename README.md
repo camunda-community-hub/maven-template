@@ -7,12 +7,29 @@ Empty maven project with defaults that incorporates Camunda Community Hub best p
 
 ## Usage
 
-Use this as a template for new Camunda Community Hub projects.
-
-Adding [Contributing to this project](https://gist.github.com/jwulf/2c7f772570bfc8654b0a0a783a3f165e)
-to the repo.
-
-(This is not part of the template as the text might change. Please copy the latest version.)
+* Use this as a template for new Camunda Community Hub
+  projects. (https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
+* Change names and URLs in `pom.xml`
+  * `groupId`/`arrtifactId`
+  ```
+  <groupId>org.camunda.bpm.extension.name</groupId>
+  <artifactId>give-me-a-name</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  ```
+  * URLs
+  ```
+  <scm>
+    <url>https://github.com/camunda-community-hub/maven-template</url>
+    <connection>scm:git:git@github.com:camunda-community-hub/maven-template.git</connection>
+    <developerConnection>scm:git:git@github.com:camunda-community-hub/maven-tenmplate.git
+    </developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+  ```
+* Add contribution guide to the repo (
+  e.g. [Contributing to this project](https://gist.github.com/jwulf/2c7f772570bfc8654b0a0a783a3f165e) )
+* Select desired license and exchange `LICENSE` file
 
 ## Features
 
