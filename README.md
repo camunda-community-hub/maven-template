@@ -36,8 +36,7 @@ Empty maven project with defaults that incorporates Camunda Community Hub best p
 - IDE integration
   - https://editorconfig.org/
 - GitHub Integration
-  - Dependabot enabled for Maven dependencies (Dependabot not yet available for Camunda Community
-    Hub)
+  - Dependabot enabled for Maven dependencies
   - Backport action (https://github.com/zeebe-io/backport-action)
 - Maven POM
   - Release to Maven, Nexus and GitHub
