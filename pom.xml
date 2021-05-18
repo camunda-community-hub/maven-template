@@ -13,9 +13,6 @@
 
   <name>give-me-a-name</name>
 
-  <!-- When changing the artifact or name, also make sure to change the SCM
-    location below and in .ci/scripts/github-release.sh -->
-
   <scm>
     <url>https://github.com/camunda-community-hub/maven-template</url>
     <connection>scm:git:git@github.com:camunda-community-hub/maven-template.git</connection>
