@@ -12,7 +12,7 @@ Empty maven project with defaults that incorporates Camunda Community Hub best p
 * Change names and URLs in `pom.xml`
   * `groupId`/`arrtifactId`
   ```
-  <groupId>org.camunda.bpm.extension.name</groupId>
+  <groupId>org.camunda.community.extension.name</groupId>
   <artifactId>give-me-a-name</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
