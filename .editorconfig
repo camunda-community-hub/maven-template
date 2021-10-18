@@ -1,4 +1,3 @@
-
 [*]
 indent_style = space
 charset = utf-8
@@ -15,5 +14,3 @@ indent_size = 2
 [*.md]
 indent_size = 2
 
-[Jenkinsfile*]
-indent_size = 4
