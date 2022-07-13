@@ -16,7 +16,7 @@
   <scm>
     <url>https://github.com/camunda-community-hub/maven-template</url>
     <connection>scm:git:git@github.com:camunda-community-hub/maven-template.git</connection>
-    <developerConnection>scm:git:git@github.com:camunda-community-hub/maven-tenmplate.git
+    <developerConnection>scm:git:git@github.com:camunda-community-hub/maven-template.git
     </developerConnection>
     <tag>HEAD</tag>
   </scm>
