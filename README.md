@@ -10,7 +10,7 @@ Empty maven project with defaults that incorporates Camunda Community Hub best p
 * Use this as a template for new Camunda Community Hub
   projects. (https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
 * Change names and URLs in `pom.xml`
-  * `groupId`/`arrtifactId`
+  * `groupId`/`artifactId`
   ```
   <groupId>org.camunda.community.extension.name</groupId>
   <artifactId>give-me-a-name</artifactId>
