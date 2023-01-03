@@ -37,7 +37,7 @@ Empty maven project with defaults that incorporates Camunda Community Hub best p
   - https://editorconfig.org/
 - GitHub Integration
   - Dependabot enabled for Maven dependencies
-  - Backport action (https://github.com/zeebe-io/backport-action)
+  - Backport action (https://github.com/korthout/backport-action)
 - Maven POM
   - Release to Maven, Nexus and GitHub
   - Google Code Formatter
